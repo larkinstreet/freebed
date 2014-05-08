@@ -1,9 +1,9 @@
 from django.conf.urls import patterns, url
 
-
+from youth import views
 
 urlpatterns = patterns('',
-    url(r'^$', views.index, name='index'),
-    url(r'^youth/$', views.numbers, name='youth'),
+    #url(r'^$', views.index, name='index'),
+    #url(r'^youth/$', views, name='youth'),
     
 )
