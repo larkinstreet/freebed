@@ -16,6 +16,7 @@ class Youth(models.Model):
     First_Checkin = models.CharField(max_length=200)
     Last_Checkin = models.CharField(max_length=200)
     Rank = models.CharField(max_length=200)
+    Status = models.CharField(max_length=50, default="Pending")
 
 
     pub_date = models.DateTimeField('date published')
